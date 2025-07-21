@@ -23,7 +23,7 @@ A lightweight Python/Tkinter launcher that lets you sort executables into custom
 
    ## 🔧 How It Works
 
-- Config is stored in `apps_by_cat.json` next to the script.
+- Config is stored in `save.json` next to the script.
 - Each category maps to a list of absolute file paths.
 - Adding or deleting apps/categories auto-saves the file.
 
