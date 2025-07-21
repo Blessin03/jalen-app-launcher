@@ -19,3 +19,25 @@ A lightweight Python/Tkinter launcher that lets you sort executables into custom
 3. Run the launcher:  
    ```bash
    python GUI.py
+   ```
+
+   ## 🔧 How It Works
+
+- Config is stored in `apps_by_cat.json` next to the script.
+- Each category maps to a list of absolute file paths.
+- Adding or deleting apps/categories auto-saves the file.
+
+---
+
+## 🧭 Roadmap / Ideas
+
+- ✅ Drag-and-drop reordering  
+- 🎨 Custom icons for each entry  
+- 📥 System-tray minimization  
+- ⌨️ Keyboard shortcuts (Ctrl + 1…9) to launch favorites
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to open an issue for bugs or feature suggestions.
